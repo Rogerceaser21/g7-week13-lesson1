@@ -2399,7 +2399,7 @@ forever
    The slides the teacher has hidden persist the same way, under their own version-keyed
    name, so a hide survives a refresh mid-lesson but never outlives a push.
    Everything else (font scale, iSAMS state, timers) stays session-only. */
-const DECK_VERSION = 'v20261123-152759';
+const DECK_VERSION = 'v20261123-152855';
 const SHEET_URL = 'https://docs.google.com/presentation/d/1M-ryu_pzQeRjWinp_B9XHzpBAmnRSt5tyg9wuVQfDZw/edit';
 
 /* ===========================================
@@ -6516,8 +6516,9 @@ ul.plain li::before { color:var(--motors); }
 .mc-code { margin:0.1em 0 0.2em; padding:0.45em 0.6em; border-radius:10px; background:rgba(0,0,0,0.06); font-family:"Courier New", monospace; font-weight:700; font-size:0.78em; line-height:1.35; white-space:pre-wrap; overflow-wrap:anywhere; }
 .bc-panel .mc-steps { gap:0.4em; }
 .mc-grid { font-size:0.9em; }
-.bc-panel .mc-cols { columns:2; column-gap:1.6em; font-size:0.78em; }
+.bc-panel .mc-cols { columns:3; column-gap:1.4em; font-size:0.6em; }
 .bc-panel .mc-cols .mc-steps li, .bc-panel .mc-cols .mc-code, .bc-panel .mc-cols .mc-head { break-inside:avoid; }
+.bc-panel .mc-cols .mc-head { break-after:avoid; }
 .mb-key { display:flex; flex-wrap:wrap; gap:0.5em; margin-bottom:0.5em; }
 .mb-k { padding:0.25em 0.7em; border-radius:999px; font-weight:700; font-size:0.85em; }
 .k1, .mb-name.s1 { background:#1565C0; color:#fff; }
