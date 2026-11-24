@@ -1559,20 +1559,28 @@ ul.plain li::before { color:var(--p-i-ink); }
   </div>
 </section>
 
-<section data-element="intro" class="slide g-stack" id="talk1" data-tt-partner="beside" data-tt-first="alpha" data-timer="180" data-timer-group="turntalk" data-cfu="What did your partner say the car does when the sensor sees black? || Cold Call three partners with the Random Name Picker, partner mode on, hands stay down, three seconds of Wait Time after each name. || It turns one way on black and the other way on white, so it zig-zags along the edge of the line." data-notes="&lt;strong&gt;Turn and Talk, 3 minutes. Start the clock.&lt;/strong&gt; Read the partner rule and who talks first, then start. &lt;strong&gt;1 minute each. Say &amp;ldquo;Swap&amp;rdquo; out loud at the one minute mark.&lt;/strong&gt; Then Cold Call three partners with the picker, partner mode on. &lt;span class=&#x27;tag cfu&#x27;&gt;CFU&lt;/span&gt; &lt;strong&gt;NEXT opens the check:&lt;/strong&gt; What did your partner say the car does when the sensor sees black? Answer: It turns one way on black and the other way on white, so it zig-zags along the edge of the line.">
+<section data-element="intro" class="slide g-stack" id="talk1" data-tt-partner="beside" data-tt-first="alpha" data-timer="180" data-timer-group="turntalk" data-cfu="What did your partner say the car does when the sensor sees black? || Cold Call three partners with the Random Name Picker, partner mode on, hands stay down, three seconds of Wait Time after each name. || It turns one way on black and the other way on white, so it zig-zags along the edge of the line." data-notes="&lt;strong&gt;Turn and Talk, 3 minutes. Start the clock.&lt;/strong&gt; Read the partner rule and who talks first, then start. &lt;strong&gt;This runs as PIES poster 2, a Timed Pair Share&lt;/strong&gt; (point at the wall copy if it is up): P, each partner needs the other&#x27;s answer for the Cold Call; I, both must speak and listen; E, 1 minute each, built in; S, half the class talks at once. &lt;strong&gt;1 minute each. Say &amp;ldquo;Swap&amp;rdquo; out loud at the one minute mark.&lt;/strong&gt; Then Cold Call three partners with the picker, partner mode on: each one says what their partner said. &lt;span class=&#x27;tag cfu&#x27;&gt;CFU&lt;/span&gt; &lt;strong&gt;NEXT opens the check:&lt;/strong&gt; What did your partner say the car does when the sensor sees black? Answer: It turns one way on black and the other way on white, so it zig-zags along the edge of the line.">
   <div class="slide-content" style="max-width:min(97vw,2500px)">
     <p class="eyebrow reveal">// turn_and_talk</p>
-    <h2 class="reveal" style="margin-bottom:calc(var(--element-gap) * 0.5)">Turn and Talk</h2>
-    <div class="tblock z reveal">
-      <p style="font-size:var(--h3-size); line-height:1.4">What does the colour sensor see, and what does the car do when it sees it?</p>
+    <h2 class="reveal" style="margin-bottom:calc(var(--element-gap) * 0.4)">Turn and Talk</h2>
+    <div class="two-col" style="align-items:start; grid-template-columns:minmax(0,5fr) minmax(0,2fr)">
+      <div>
+        <div class="tblock z reveal">
+          <p style="font-size:var(--h3-size); line-height:1.4">What does the colour sensor see, and what does the car do when it sees it?</p>
+        </div>
+        <ul class="steps" style="gap:calc(var(--element-gap) * 0.25); margin-top:calc(var(--element-gap) * 0.8)">
+          <li class="reveal tt-row" data-tt-row="partner"><b>Your partner</b> is the person beside you.</li>
+          <li class="reveal tt-row" data-tt-row="first"><b>First speaker:</b> The partner whose first name comes first in the alphabet talks first. Same? Rock, paper, scissors.</li>
+          <li class="reveal"><b>1 minute each.</b> Swap when your teacher says Swap. The other partner talks.</li>
+          <li class="reveal"><b>Then your teacher picks three names,</b> hands down, and you say what your partner said.</li>
+        </ul>
+        <p class="reveal" style="margin-top:calc(var(--element-gap) * 0.5)"><span class="chip red">3 minutes</span> <span class="chip">PIES: Timed Pair Share</span></p>
+      </div>
+      <div class="col-img picfig pic-big reveal">
+        <img class="photo" src="assets/pies-poster-2.png" alt="PIES classroom poster 2, This or That, Explain Your Choice: a Timed Pair Share where Partner A explains while Partner B listens, then they swap">
+        <p class="small" style="margin-top:6px">PIES poster 2. Today we use its Timed Pair Share. Tap the poster to see it big.</p>
+      </div>
     </div>
-    <ul class="steps" style="gap:calc(var(--element-gap) * 0.3); margin-top:var(--element-gap)">
-      <li class="reveal tt-row" data-tt-row="partner"><b>Your partner</b> is the person beside you.</li>
-      <li class="reveal tt-row" data-tt-row="first"><b>First speaker:</b> The partner whose first name comes first in the alphabet talks first. Same? Rock, paper, scissors.</li>
-      <li class="reveal"><b>1 minute each.</b> Swap when your teacher says Swap. The other partner talks.</li>
-      <li class="reveal"><b>Then your teacher picks three names,</b> hands down, and you say what your partner said.</li>
-    </ul>
-    <p class="reveal" style="margin-top:calc(var(--element-gap) * 0.6)"><span class="chip red">3 minutes</span></p>
   </div>
 </section>
 
@@ -2399,7 +2407,7 @@ forever
    The slides the teacher has hidden persist the same way, under their own version-keyed
    name, so a hide survives a refresh mid-lesson but never outlives a push.
    Everything else (font scale, iSAMS state, timers) stays session-only. */
-const DECK_VERSION = 'v20261123-153328';
+const DECK_VERSION = 'v20261124-074627';
 const SHEET_URL = 'https://docs.google.com/presentation/d/1M-ryu_pzQeRjWinp_B9XHzpBAmnRSt5tyg9wuVQfDZw/edit';
 
 /* ===========================================
